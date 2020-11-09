@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\zcitz\OneDrive\Documents\Python extra\FilesFolders\mainfolder.py", line 3, in <module>
+    bestand.write("dit is 2e test");
+io.UnsupportedOperation: not writable

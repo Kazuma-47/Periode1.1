@@ -1,0 +1,18 @@
+commit 98389074f3f5bc136cd4512442372e043d33f6d2 (HEAD -> master, Feature, Develop)
+Author: joao <joao2002jubitana@hotmail.com>
+Date:   Tue Sep 15 15:02:39 2020 +0200
+
+    test 4
+
+commit bbc9c166c935fe1f9c5a40f074694838dd552501
+Author: joao <joao2002jubitana@hotmail.com>
+Date:   Tue Sep 15 14:21:51 2020 +0200
+
+    dit is de tweede versie
+
+commit 8b6707bed732495be1f9499a391d5f0558a063fb
+Author: joao <joao2002jubitana@hotmail.com>
+Date:   Tue Sep 15 14:19:19 2020 +0200
+
+    test les 3
+PS C:\Users\zcitz\F1M1\pvaardig\les03\Opdracht3>

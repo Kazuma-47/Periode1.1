@@ -1,0 +1,30 @@
+# Add your Python code here. E.g.
+from microbit import *
+
+
+def loop():
+    import random
+    check= Image("00009:00099:90099:09990:09900")
+    fout= Image("99099:99099:09990:99099:99099")
+    getal= random.randrange(0, 10)
+    random= random.randrange(0, 10)
+    display.scroll("getal is: " + str(getal))
+    display.scroll("hoger of lager?")
+    display.scroll("A= hoger B= Lager")
+    if button_a.is_pressed() and getal < random:
+            check= Image("00009:00099:90099:09990:09900")
+            display.show(check)
+            loop()
+    elif button_a.is_pressed() and getal > random:
+            fout= Image("99099:99099:09990:99099:99099")
+            display.show(fout)
+            loop()
+    elif button_b.is_pressed() and getal < random:
+            fout= Image("99099:99099:09990:99099:99099")
+            display.show(fout)
+            loop()
+    elif button_b.is_pressed() and getal > random:
+            check= Image("00009:00099:90099:09990:09900")
+            display.show(check)
+            loop()
+loop()
