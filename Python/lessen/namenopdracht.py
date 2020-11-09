@@ -1,0 +1,6 @@
+print("wat is jouw naam?")
+naam = input()
+print("wat is uw achternaam?")
+achternaam = input()
+print("uw hele naam is... ")
+print(naam +" "+ achternaam)
