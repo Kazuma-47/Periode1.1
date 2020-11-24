@@ -1,6 +1,6 @@
 from PIL import Image
 
-afbeelding = Image.open("sunset.jpg")
+afbeelding = Image.open("tree.jpg")
 afbeelding.show()
 
 breedte = afbeelding.width
